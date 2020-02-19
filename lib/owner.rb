@@ -59,6 +59,16 @@ class Owner
      pets.flatten 
    end 
 
+   def sell_puts 
+     cats.each do |c| 
+       c.mood = "nervous"
+       c.owner = nil 
+     end 
      
+     dogs.each do |d|
+       d.mood = "nervous"
+       d.owner = nil 
+     end 
+   end 
   
 end
