@@ -14,8 +14,4 @@ class Cat
     @@all 
   end 
   
-  def mood(moods)
-    @cat_mood = moods
-  end 
-  
 end
