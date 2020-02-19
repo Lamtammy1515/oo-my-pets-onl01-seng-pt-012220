@@ -54,7 +54,9 @@ class Owner
    
    def sell_pets
      pets = []
-     pets << dog
+     pets << dogs 
+     pets << cats 
+     pets 
 
      
   
