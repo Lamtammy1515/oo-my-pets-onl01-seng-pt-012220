@@ -51,6 +51,10 @@ class Owner
       c.mood = "happy"
     end 
    end 
+   
+   def sell_pets
+     pets = []
+     pets << dog
 
      
   
