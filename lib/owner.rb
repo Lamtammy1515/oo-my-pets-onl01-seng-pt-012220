@@ -52,7 +52,7 @@ class Owner
     end 
    end 
    
-   def sell_pets
+   def pets
      pets = []
      pets << dogs 
      pets << cats 
